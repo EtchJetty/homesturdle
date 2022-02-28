@@ -2,6 +2,9 @@ import { CharStatus } from '../../lib/statuses'
 import classnames from 'classnames'
 import { REVEAL_TIME_MS } from '../../constants/settings'
 import { getStoredIsHighContrastMode } from '../../lib/localStorage'
+// import { View } from 'react';
+
+// import { useFonts } from 'expo-font'
 
 type Props = {
   value?: string
@@ -22,9 +25,12 @@ export const Cell = ({
   const shouldReveal = isRevealing && isCompleted
   const animationDelay = `${position * REVEAL_TIME_MS}ms`
   const isHighContrast = getStoredIsHighContrastMode()
-
+  // const [loaded] = useFonts({ AlloyInk: require("./assets/fonts/FontStuck-Extended.ttf") });
+  // if (!loaded) {
+  //     return null;
+  // }
   const classes = classnames(
-    'w-14 h-14 border-solid border-2 flex items-center justify-center mx-0.5 text-4xl font-bold rounded dark:text-white',
+    'w-14 h-14 border-solid border-2 flex items-center justify-center mx-0.5 text-4xl hs rounded dark:text-white',
     {
       'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-600':
         !status,

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'fontStuck';
+  src: url('https://file.garden/X8UcPOa95myVypAH/fic/lib/fonts/FontStuck-Extended.woff')
+    format('woff');
+}
+
+.hs {
+  font-family: 'fontStuck', 'Courier New', Courier, monospace;
+}
+
 :root {
   --animation-speed: 1000ms;
   --animation-speed-fast: 250ms;
@@ -75,6 +85,21 @@ svg.cursor-pointer:hover {
   height: 3rem;
   align-items: center;
   justify-content: space-between;
+}
+
+.mainGame {
+  /* -webkit-text-size-adjust: 100%;
+  color: #000000;
+  overflow-wrap: break-word;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; */
+  font-family: 'courier-std', courier, monospace;
+  font-weight: bold;
+  /* padding-top: 15px; */
+  font-size: 32px;
+  /* text-align: center;
+  line-height: 1.15; */
 }
 
 .right-icons {
