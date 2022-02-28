@@ -47,6 +47,13 @@
       data-domain="%REACT_APP_PLAUSIBLE_DOMAIN%"
       src="https://plausible.io/js/plausible.js"
     ></script>
+    <script>
+      // in the iframe
+      window.parent.postMessage(
+        { type: 'copy-to-clipboard', toCopy: 'Something to copy' },
+        '*'
+      )
+    </script>
     <% } %>
   </head>
   <body>
