@@ -16,6 +16,21 @@ export const shareStatus = (
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
       generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode))
   )
+  // in the iframe
+  window.parent.postMessage(
+    {
+      type: 'copy-to-clipboard',
+      toCopy:
+        `${GAME_TITLE} ${solutionIndex} ${
+          lost ? 'X' : guesses.length
+        }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
+        generateEmojiGrid(
+          guesses,
+          getEmojiTiles(isDarkMode, isHighContrastMode)
+        ),
+    },
+    '*'
+  )
 }
 
 export const generateEmojiGrid = (guesses: string[], tiles: string[]) => {
