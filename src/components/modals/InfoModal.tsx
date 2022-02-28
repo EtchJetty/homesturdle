@@ -32,17 +32,17 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="T" />
-        <Cell value="E" />
+        <Cell value="P" />
+        <Cell value="Y" />
         <Cell
           isRevealing={true}
           isCompleted={true}
           value="R"
           status="present"
         />
+        <Cell value="O" />
+        <Cell value="P" />
         <Cell value="E" />
-        <Cell value="Z" />
-        <Cell value="I" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter R is in the word but in the wrong spot.
@@ -58,8 +58,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter U is not in the word in any spot. <br /> <br />
-        Currently, this game only supports the names of the trolls who appear in
-        the comic itself -- options for Hiveswap trolls etc. will come later.
+        Currently, this game only supports the first and last names of the
+        trolls who appear in the comic itself -- options for Hiveswap trolls
+        etc. will come later.
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
