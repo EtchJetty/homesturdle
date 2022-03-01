@@ -1,4 +1,10 @@
 export const VALID_GUESSES = [
+  'mierfa',
+  'durgas',
+  'nektan',
+  'whelan',
+  'idarat',
+  'catlaz',
   'feferi',
   'maryam',
   'kalbur',
