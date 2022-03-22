@@ -51,7 +51,7 @@ export const WORDS = [
   // 'koriga',
   // 'maxlol',
   // 'chahut',
-  'medigo',
+  'megido',
   // 'adyata',
   // 'jonjet',
   'aranea',
