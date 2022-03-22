@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/homesturdle/static/css/main.79361041.css",
-    "main.js": "/homesturdle/static/js/main.d1f41e00.js",
+    "main.js": "/homesturdle/static/js/main.3ccb66c2.js",
     "static/js/787.b3f9d252.chunk.js": "/homesturdle/static/js/787.b3f9d252.chunk.js",
     "index.html": "/homesturdle/index.html",
     "main.79361041.css.map": "/homesturdle/static/css/main.79361041.css.map",
-    "main.d1f41e00.js.map": "/homesturdle/static/js/main.d1f41e00.js.map",
+    "main.3ccb66c2.js.map": "/homesturdle/static/js/main.3ccb66c2.js.map",
     "787.b3f9d252.chunk.js.map": "/homesturdle/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79361041.css",
-    "static/js/main.d1f41e00.js"
+    "static/js/main.3ccb66c2.js"
   ]
 }
