@@ -58,7 +58,7 @@ export const VALID_GUESSES = [
   'koriga',
   'maxlol',
   'chahut',
-  'medigo',
+  'megido',
   'adyata',
   'jonjet',
   'aranea',
